@@ -1,0 +1,181 @@
+/* Cabeçalho */
+
+header {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	background: lightcyan;
+	padding: 20px 0;
+}
+
+.imagem-cabecalho {
+	position: relative;
+	height: 30px;
+	margin-left: 40px;
+}
+
+header input {
+	padding: 10px;
+	position: relative;
+	left: 400px;
+	bottom: 30px;
+	width: 350px;
+	height: 30px;
+	border-radius: 20px;
+	background: lightgray;
+	font-size: 15px;
+}
+
+header button {
+	position: relative;
+	left: 550px;
+	bottom: 30px;
+	width: 150px;
+	height: 50px;
+	background: white;
+	color: blue;
+
+}
+
+header button:hover {
+	font-size: 16px;
+	background: lightblue;
+}
+
+/* Banner */
+
+.imagem-banner {
+	width: 100%;
+}
+
+.texto-banner {
+	color: white;
+	position: relative;
+	bottom: 200px;
+	left: 150px;
+	width: 50%;
+}
+
+.titulo-banner {
+	padding-bottom: 20px;
+	font-size: 40px;
+}
+
+.paragrafo-banner {
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+
+.botao-banner {
+	width: 20%;
+	height: 40px;
+}
+
+.botao-banner:hover {
+	font-size: 16px;
+	background: lightblue;
+	color: blue;
+	border: 3px solid blue;
+}
+
+/* Seção produtos */
+
+main {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.produtos {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+
+.titulo {
+	padding: 20px;
+	margin: 0 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produtos-starwars, .produtos-consoles, .produtos-diversos {
+	text-align: center;
+}
+
+.titulo-produto {
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+.preco-produto {
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+
+.descricao-produto {
+	color: blue;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.descricao-produto:hover {
+	font-size: 18px;
+	cursor: pointer;
+}
+
+/* Rodapé */
+
+footer {
+	width: 100%;
+	height: 350px;
+	background: lightcyan;
+
+}
+
+.conteudo-principal {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 80px;	
+	padding: 50px 0px;
+}
+
+.servicos {
+	padding: 10px 0px;
+}
+
+.formulario-rodape {
+	display: flex;
+	flex-direction: column;
+}
+
+.titulo-formulario {
+	padding: 30px 20px;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.nome-formulario {
+	height: 30px;
+	width: 500px;
+}
+
+.mensagem-formulario {
+	margin-top:20px;
+	width: 500px;
+}
+
+h5, .ano {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h5:hover {
+	font-size: 25px;
+	color: blue;
+	transform: scale(1.0);
+}
+
